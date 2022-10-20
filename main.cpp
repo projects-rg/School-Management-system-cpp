@@ -217,7 +217,7 @@ void StaffLogin() {
 	// been separated by a tabspace.
 
 	else if (choice == 2) {
-		infile.open("Example.txt", ios::in);
+		infile.open("data.txt", ios::in);
 		if (strcmp(subcode, code1.c_str()) == 0) {
 			cout << "Registration number - Marks\n"
 				<< endl;
@@ -233,7 +233,7 @@ void StaffLogin() {
 		}
 
 		infile.close();
-		infile.open("Example.txt", ios::in);
+		infile.open("data.txt", ios::in);
 
 		if (strcmp(subcode, code2.c_str()) == 0) {
 			cout << "Registration number - Marks\n"
